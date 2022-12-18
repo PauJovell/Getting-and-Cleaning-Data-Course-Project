@@ -1,10 +1,5 @@
 # Getting-and-Cleaning-Data-Course-Project
-
-
-# 2
-
-
-
+This is the course project for the Getting and Cleaning Data Course of Coursera that has to be done in its fourth and final week.The 
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
