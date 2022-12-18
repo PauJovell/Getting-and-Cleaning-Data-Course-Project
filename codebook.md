@@ -28,7 +28,8 @@ Merged_training_test (10299 rows, 563 column) is created by merging Subject, Y a
 
 5.  Appropriately labels the data set with descriptive variable names.
 6.  Extracts only the measurements on the mean and standard deviation for each measurement and export it to a .txt. The resulting file:
-7.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+7.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject:
+
 tidy.txt(10299 rows, 88 columns)
 
 
