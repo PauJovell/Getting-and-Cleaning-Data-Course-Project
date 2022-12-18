@@ -11,26 +11,22 @@ The file contains two different type of variables deppending of its information:
   4. Sitting
   5. Standing
   6. Laying
-*`num_activity`: A natural number from 1 to 6 that match the activity as the above list.
 
-
-This is the course project for the Getting and Cleaning Data Course of Coursera that has to be done in its fourth and final week. This file has the instructions on how to conduct this study:
-## Dataset
-
-http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
-
-
-## Files
-`run_analysis.R` does the following:
-1. Download the dataset if it does not already exist in the working directory and unzip it.
-2. Loads both the training and test datasets, merge them and keeps only those columns with the mean and standard deviation for each mesurement.
-3. Uses descriptive activity names to name the activities in the data set.
-4. Appropriately labels the data set with descriptive variable names. 
-5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, that is:             `tidy.text`.
-
-`CodeBook.md`: describes the variables, the data, and any transformations or work that was performed to clean up the data.
-
-`tidy.text`: The end result as explained in point 5.
-
-
-
+2. Measurements: The mean of the different measurements that were conducted during the activities performed by the subjects:
+ "subject"                                            "activity"                                           "num_activity"                                      
+ "TimeBodyAccelerometer.mean...X"                     "TimeBodyAccelerometer.mean...Y"                     "TimeBodyAccelerometer.mean...Z"                    
+ "TimeGravityAccelerometer.mean...X"                  "TimeGravityAccelerometer.mean...Y"                  "TimeGravityAccelerometer.mean...Z"                 
+ "TimeBodyAccelerometerJerk.mean...X"                 "TimeBodyAccelerometerJerk.mean...Y"                 "TimeBodyAccelerometerJerk.mean...Z"                
+ "TimeBodyGyroscope.mean...X"                         "TimeBodyGyroscope.mean...Y"                         "TimeBodyGyroscope.mean...Z"                        
+ "TimeBodyGyroscopeJerk.mean...X"                     "TimeBodyGyroscopeJerk.mean...Y"                     "TimeBodyGyroscopeJerk.mean...Z"                    
+ "TimeBodyAccelerometerMagnitude.mean.."              "TimeGravityAccelerometerMagnitude.mean.."           "TimeBodyAccelerometerJerkMagnitude.mean.."         
+ "TimeBodyGyroscopeMagnitude.mean.."                  "TimeBodyGyroscopeJerkMagnitude.mean.."              "FrequencyBodyAccelerometer.mean...X"               
+ "FrequencyBodyAccelerometer.mean...Y"                "FrequencyBodyAccelerometer.mean...Z"                "FrequencyBodyAccelerometer.meanFreq...X"           
+ "FrequencyBodyAccelerometer.meanFreq...Y"            "FrequencyBodyAccelerometer.meanFreq...Z"            "FrequencyBodyAccelerometerJerk.mean...X"           
+ "FrequencyBodyAccelerometerJerk.mean...Y"            "FrequencyBodyAccelerometerJerk.mean...Z"            "FrequencyBodyAccelerometerJerk.meanFreq...X"       
+ "FrequencyBodyAccelerometerJerk.meanFreq...Y"        "FrequencyBodyAccelerometerJerk.meanFreq...Z"        "FrequencyBodyGyroscope.mean...X"                   
+ "FrequencyBodyGyroscope.mean...Y"                    "FrequencyBodyGyroscope.mean...Z"                    "FrequencyBodyGyroscope.meanFreq...X"               
+"FrequencyBodyGyroscope.meanFreq...Y"                "FrequencyBodyGyroscope.meanFreq...Z"                "FrequencyBodyAccelerometerMagnitude.mean.."        
+ "FrequencyBodyAccelerometerMagnitude.meanFreq.."     "FrequencyBodyAccelerometerJerkMagnitude.mean.."     "FrequencyBodyAccelerometerJerkMagnitude.meanFreq.."
+"FrequencyBodyGyroscopeMagnitude.mean.."             "FrequencyBodyGyroscopeMagnitude.meanFreq.."         "FrequencyBodyGyroscopeJerkMagnitude.mean.."        
+ "FrequencyBodyGyroscopeJerkMagnitude.meanFreq.."     "Angle.TimeBodyAccelerometerMean.Gravity."           "Angle.TimeBodyAccelerometerJerkMean..GravityMean." 
