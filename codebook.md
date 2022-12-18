@@ -1,7 +1,7 @@
 # Codebook
 
 ## Steps of `tidy.txt`:
-1.er
+1. wd
 
 ## Variables of `tidy.txt`:
 
