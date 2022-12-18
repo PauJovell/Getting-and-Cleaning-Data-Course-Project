@@ -12,7 +12,9 @@ The file contains two different type of variables deppending of its information:
   5. Standing
   6. Laying
 
-## Measurements: The mean of the different measurements that were conducted during the activities performed by the subjects:
+## Measurements: 
+
+The mean of the different measurements that were conducted during the activities performed by the subjects:
 
  TimeBodyAccelerometer.mean...X
  
