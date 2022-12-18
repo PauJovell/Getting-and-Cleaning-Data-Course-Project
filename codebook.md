@@ -23,6 +23,7 @@ y_train <- test/y_train.txt : 7352 rows, 1 columns
 3. Merge both the training set and the set one using rbind() and cbind(). The resulting file:
 
 Merged_training_test (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
+
 4. Uses descriptive activity names to name the activities in the data set using `activity_labels`.
 
 5.  Appropriately labels the data set with descriptive variable names
