@@ -1,1 +1,36 @@
+# Codebook
+This file summarize `tidy.txt`, the end result of this project.
+
+The file contains two different type of variables deppending of its information:
+1. Identifiers: 
+*`subject`: The identificator of the test subject. It range from 1 to 30, since 30 people took part in the experiment.
+*`activity`: The type of activity that was being performed by the subject when each measurement was taken. A related variable,`num_activity`, match a natural number from 1 to 6 to the activity in the following way:
+  1. Walking
+  2. Walking upstairs
+  3. Walking downstairs
+  4. Sitting
+  5. Standing
+  6. Laying
+*`num_activity`: A natural number from 1 to 6 that match the activity as the above list.
+
+
+This is the course project for the Getting and Cleaning Data Course of Coursera that has to be done in its fourth and final week. This file has the instructions on how to conduct this study:
+## Dataset
+
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
+
+
+## Files
+`run_analysis.R` does the following:
+1. Download the dataset if it does not already exist in the working directory and unzip it.
+2. Loads both the training and test datasets, merge them and keeps only those columns with the mean and standard deviation for each mesurement.
+3. Uses descriptive activity names to name the activities in the data set.
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject, that is:             `tidy.text`.
+
+`CodeBook.md`: describes the variables, the data, and any transformations or work that was performed to clean up the data.
+
+`tidy.text`: The end result as explained in point 5.
+
+
 
