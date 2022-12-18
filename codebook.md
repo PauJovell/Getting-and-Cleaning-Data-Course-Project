@@ -13,12 +13,12 @@ The file contains two different type of variables deppending of its information:
   6. Laying
 
 2. Measurements: The mean of the different measurements that were conducted during the activities performed by the subjects:
- *TimeBodyAccelerometer.mean...X
- *TimeBodyAccelerometer.mean...Y    
- *TimeBodyAccelerometer.mean...Z    
- *TimeGravityAccelerometer.mean...X     
- *TimeGravityAccelerometer.mean...Y    
- *TimeGravityAccelerometer.mean...Z                 
+ TimeBodyAccelerometer.mean...X
+ TimeBodyAccelerometer.mean...Y    
+ TimeBodyAccelerometer.mean...Z    
+ TimeGravityAccelerometer.mean...X     
+ TimeGravityAccelerometer.mean...Y    
+ TimeGravityAccelerometer.mean...Z                 
  TimeBodyAccelerometerJerk.mean...X  
  TimeBodyAccelerometerJerk.mean...Y  
  TimeBodyAccelerometerJerk.mean...Z                
