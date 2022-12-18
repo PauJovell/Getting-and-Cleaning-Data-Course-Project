@@ -1,7 +1,36 @@
 # Codebook
 
-## Steps of `tidy.txt`:
-1. wd
+## Transformations of `tidy.txt`:
+1. Download the dataset: We download and extract the dataset: `UCI HAR Dataset.
+2. Read the .txt files and assign it to variables:
+
+features <- features.txt : 561 rows, 2 columns
+
+activities <- activity_labels.txt : 6 rows, 2 columns
+
+subject_test <- test/subject_test.txt : 2947 rows, 1 column
+
+x_test <- test/X_test.txt : 2947 rows, 561 columns
+
+x_test <- test/X_test.txt : 2947 rows, 561 columns
+
+subject_train <- test/subject_train.txt : 7352 rows, 1 column
+
+x_train <- test/X_train.txt : 7352 rows, 561 columns
+
+y_train <- test/y_train.txt : 7352 rows, 1 columns
+
+3. Merge both the training set and the set one using rbind() and cbind(). The resulting file:
+
+Merged_training_test (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
+4. Uses descriptive activity names to name the activities in the data set using `activity_labels`.
+
+5.  Appropriately labels the data set with descriptive variable names
+6.  Extracts only the measurements on the mean and standard deviation for each measurement and export it to a .txt. The resulting file:
+7.  From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject
+tidy.txt(10299 rows, 88 columns)
+
+
 
 ## Variables of `tidy.txt`:
 
