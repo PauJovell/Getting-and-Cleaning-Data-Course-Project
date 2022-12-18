@@ -3,8 +3,8 @@ This file summarize `tidy.txt`, the end result of this project.
 
 The file contains two different type of variables deppending of its information:
 ## Identifiers: 
-*`subject`: The identificator of the test subject. It range from 1 to 30, since 30 people took part in the experiment.
-*`activity`: The type of activity that was being performed by the subject when each measurement was taken. A related variable,`num_activity`, match a natural number from 1 to 6 to the activity in the following way:
+`subject`: The identificator of the test subject. It range from 1 to 30, since 30 people took part in the experiment.
+`activity`: The type of activity that was being performed by the subject when each measurement was taken. A related variable,`num_activity`, match a natural number from 1 to 6 to the activity in the following way:
   1. Walking
   2. Walking upstairs
   3. Walking downstairs
@@ -12,7 +12,7 @@ The file contains two different type of variables deppending of its information:
   5. Standing
   6. Laying
 
-##Measurements: The mean of the different measurements that were conducted during the activities performed by the subjects:
+## Measurements: The mean of the different measurements that were conducted during the activities performed by the subjects:
 
  TimeBodyAccelerometer.mean...X
  
