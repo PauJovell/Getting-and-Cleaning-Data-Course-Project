@@ -3,14 +3,13 @@ This is the course project for the Getting and Cleaning Data Course of Coursera 
 * [Dataset](#general-info)
 * [Files](#Files)
 
-##Dataset
+## Dataset
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#
 
 
-##Files
-1. The file `run_analysis.R` does the following:
-
+## Files
+* The file `run_analysis.R` does the following:
 1. Download the dataset if it does not already exist in the working directory and unzip it.
 2. Loads both the training and test datasets, merge them and keeps only those columns with the mean and standard deviation for each mesurement.
 
