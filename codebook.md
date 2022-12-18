@@ -1,5 +1,8 @@
 # Codebook
 
+## Steps of `tidy.txt`:
+1.er
+
 ## Variables of `tidy.txt`:
 
 This file summarize `tidy.txt`, the end result of this project.
