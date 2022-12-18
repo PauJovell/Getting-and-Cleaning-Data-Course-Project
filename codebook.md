@@ -22,7 +22,7 @@ features <- features.txt : 561 rows, 2 columns
 
 3. Merge both the training set and the set one using rbind() and cbind(). The resulting file:
 
-Merged_training_test (10299 rows, 563 column) is created by merging Subject, Y and X using cbind() function
+Merged_training_test (10299 rows, 563 column) 
 
 4. Uses descriptive activity names to name the activities in the data set using `activity_labels`.
 
