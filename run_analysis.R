@@ -16,14 +16,11 @@ setwd("./R_data")
 
 #Setting the Working Directory
 
-
 # Checking if folder exists and unzip
 if (!file.exists("UCI HAR Dataset")) {unzip("UCI HAR Dataset.zip") }
 
 #set Working Dirtectory
 setwd("./UCI HAR Dataset")
-
-
 
 #First, we read all the files from WD:
 subject_test <- read.table("./test/subject_test.txt", col.names = "subject")
@@ -40,7 +37,6 @@ X <- rbind(x_train, x_test)
 Y <- rbind(y_train, y_test)
 Subject <- rbind(subject_train, subject_test)
 Merged_training_test <- cbind(Subject, Y, X)
-
 
 ##STEP 2: Extracts only the measurements on the mean and standard deviation for each measurement. 
 
@@ -66,9 +62,6 @@ names(Tidy_data)<-gsub("-freq()", "Frequency", names(Tidy_data), ignore.case = T
 names(Tidy_data)<-gsub("angle", "Angle", names(Tidy_data))
 names(Tidy_data)<-gsub("-std()", "STD", names(Tidy_data), ignore.case = TRUE)
 
-
-
-
 ## Step 5: From the data set in step 4, creates a second, independent tidy data 
 #  set with the average of each variable for each activity and each subject.
 
@@ -76,5 +69,3 @@ tidy <- Tidy_data %>%
   group_by(subject, activity) %>%
   summarise_all(funs(mean))
 write.table(tidy, "Tidy.txt", row.name=FALSE)
-
-
