@@ -1,4 +1,7 @@
 # Codebook
+
+##Variables of `tidy.txt`:
+
 This file summarize `tidy.txt`, the end result of this project.
 
 The file contains two different type of variables deppending of its information:
